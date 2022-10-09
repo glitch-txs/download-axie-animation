@@ -1,0 +1,18 @@
+.btn{
+    background:linear-gradient(104.04deg,#ff6c6c,#ff4040);
+    color: rgb(255, 255, 255);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    border: 0;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    padding: 0 16px;
+    width: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background:#ff4040;
+    }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #14151b;
+  min-height: 100vh;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: transparent rgba(0,0,0,.5);
+  user-select: none;
+}

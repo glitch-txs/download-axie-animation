@@ -1,0 +1,62 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formContainer{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+    background-color: #1c1f25;
+    border: 1px solid #5b6372;
+    width: 100px;
+    font-size: 14px;
+    height: 36px;
+    color: #fff;
+    border-radius: 4px;
+    word-wrap: break-word;
+
+
+    cursor: pointer;
+}
+
+.input{
+    background-color: #1c1f25;
+    border: 1px solid #5b6372;
+    width: 160px;
+    font-size: 14px;
+    height: 36px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0 10px;
+
+    &:focus{
+      border: solid 2px rgb(255, 64, 64, 0.8);
+      box-shadow: 0 0 12px rgb(255, 64, 64, 0.55);
+      outline: none;
+    }
+  }
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input[type=number] {
+  appearance: textfield;
+}
+
+.input::placeholder{
+    text-align: center;
+    color: #fff;
+}
