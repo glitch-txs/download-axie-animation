@@ -27,7 +27,7 @@ const AxieProvider: React.FC<Props> = ({ children }) => {
 
     const [refContainer, setRefContainer] = useState<React.MutableRefObject<HTMLDivElement>>(null)
     const [animationIDs, setAnimationIDs] = useState<number[]>([2, 3, 4, 5])
-    const [direction, setDirection] = useState<number>(0.8)
+    const [direction, setDirection] = useState<number>(1)
     const [delay, setDelay] = useState<number>(0)
     const [background, setBackground] = useState<boolean>(false)
     const [record, setRecord] = useState<boolean>(false)
